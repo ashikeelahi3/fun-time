@@ -3,19 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love</title>
+    <title>e-school</title>
+    <link rel="shortcut icon" href="./IMG/logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="./IMG/favicon.png" type="image/x-icon">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-    <!-- font-awesome -->
-    <script src="./Js/all.js"></script>
-    <!-- google font -->
-  
-    <!--  -->
     <!-- External css -->
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/love.css">
-    <link rel="stylesheet" href="./CSS/text.css">
   </head>
   <body>
 
@@ -23,54 +17,58 @@
     <!-- coolors -->
 
     <!-----x----- first-section -----x----->
-    <section id="first-section">
-      <!-----x----- heart-container -----x----->
-      <div class="heart-container">
-        <div class="center">
-          <div class="heart">
-          </div>
-        </div>
-      </div>
-      <!-----x----- question-container -----x----->
-      <div class="question-container">
+    <section id="header">
+    <!-----x----- navbar -----x----->
+      <div class="container px-3 py-4">
         <div class="row">
-          <div class="col-md-8 col-lg-6 mx-auto">
-            <p class="love-question text-center">Do, you love me?</p>
-            <div class="row my-3">
-              <div class="col-6 d-flex">
-                <button type="button" id="btnYes" class="btn text-light px-4 ml-auto">Yes</button>
-              </div>
-              <div class="col-6">
-                <button type="button" id="btnSure" class="btn text-light px-4 mx-auto">Sure</button>
-              </div>
+          <div class="col-md-7">
+            <div class="container">
+              <img class="logo" src="./IMG/ICON/Logo.png" alt="logo">
             </div>
           </div>
+          <div class="col-md-5 d-flex align-items-center justify-content-around flex-wrap">
+              <a class="nav-text px-2" href="#books">Books</a>
+              <a class="nav-text px-2" href="#courses">Courses</a>
+              <a class="nav-text px-2" href="#others">Others</a>
+              <a class="nav-text px-2" href="#blog">Blog</a>
+              <a class="btn sign-in-btn" href="#">Sign In</a>
+          </div>
         </div>
       </div>
-    </section>
-    <!-----x----- second-section -----x----->
-    <section id="section-2">
+    <!-----x----- end of navbar -----x----->
       <div class="container">
-        <div class="row">
-          <div class="col box-col">
-            <div class="box">
-              <br>
-              <h1 pu-1>তে কি হইচে <b><i class="fas fa-love"></i></b></h1>
-              <!-- <i class="fav fa-love 3x "></i> -->
-              <!-- i.fav.fa-love.3x -->
-            </div>
-
-            <button type="button" id="btnBack" class="btn text-light px-4 mx-auto">Back</button>
+        <div class="row align-items-center">
+      <!-----x----- header-text -----x----->
+          <div class="col-sm-6">
+            <p class="question">
+              Are you ready to learn?
+            </p>
+            <h2>Learn With fun on <span class="green-text">any schedule</span></h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam reiciendis quis nemo molestias! Quia.</p>
+            <div class="btn btn-success px-2">Get Started</div>
           </div>
+          <!-----x----- end of header-text -----x----->
+          <!-----x----- header-picture -----x----->
+          <div class="col-sm-6 d-flex align-items-center">
+            <img src="./IMG/Photos/Illustration.png" alt="Header" class="img-fluid">
+          </div>
+          <!-----x----- end of header-picture -----x----->
         </div>
       </div>
     </section>
+    <!-----x----- end of first-section -----x----->
+
+
 
 
     <!-- jquery -->
     <script src="./Js/jquery-3.5.0.min.js"></script>
     <!-- bootstrap js  -->
     <script src="./Js/bootstrap.bundle.min.js"></script>
+    <!-- proper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+    <script src="./Js/all.js"></script>
     <!-- External Js -->
     <script src="./Js/main.js"></script>
 </body>
